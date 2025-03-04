@@ -34,11 +34,30 @@ public class LoopApp {
         }
         return sum;
     }
-    public int sumStartToEnd(int x, int y){
+    public String sumStartToEnd(int x, int y){
         int s=0;
         for(int i=x; i<=y;i++){
             s+=i;
         }
-        return s;
+        return x+"~"+y+"까지 합은"+s;
+    }
+    //sumStartToEnd -> while, do~ while구문으로 변경
+    public String sumStartToEndWhile(int x, int y){
+        int s=0;
+        int i=x;
+        while (i<=y) {
+            s+=i;
+            i++;
+        }
+        return x+"~"+y+"까지 합은"+s;
+    }
+    public String sumStartToEndDoWhile(int x, int y){
+        int s =0;
+        int i=x;
+        do {
+            s+=i;
+            i++;
+        }while(i<=y);
+        return x+"~"+y+"까지 합은"+s;
     }
 }

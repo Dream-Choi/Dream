@@ -4,8 +4,11 @@ public class LoopAppMain {
     public static void main(String[] args) {
         LoopApp app = LoopApp.builder().build();
         //int result=app.sumOneToTen();
-        int result = app.sumStartToEnd(1, 1000);
+       // String result = app.sumStartToEnd(1, 100);
+       String result=app.sumStartToEndWhile(1, 100);
+       String result2=app.sumStartToEndDoWhile(1, 100);
         System.out.println(result);
+        System.out.println(result2);
 
     }
 }
