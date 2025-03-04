@@ -15,6 +15,6 @@ public class PostDTO {
     private String title;
     private String content;
     private String author;
-    private int vieweCnt;    
+    private int viewCnt;    
     
 }
