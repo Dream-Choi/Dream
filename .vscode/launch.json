@@ -1,0 +1,77 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LoopAppMain",
+            "request": "launch",
+            "mainClass": "LoopAppMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "ControlAppMain",
+            "request": "launch",
+            "mainClass": "ControlAppMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CarMain",
+            "request": "launch",
+            "mainClass": "CarMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "GreetingApp",
+            "request": "launch",
+            "mainClass": "GreetingApp",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "OperatorMain",
+            "request": "launch",
+            "mainClass": "OperatorMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "PostMain",
+            "request": "launch",
+            "mainClass": "PostMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "StudentMain",
+            "request": "launch",
+            "mainClass": "StudentMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "TeacherMain",
+            "request": "launch",
+            "mainClass": "TeacherMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "VariableApp",
+            "request": "launch",
+            "mainClass": "VariableApp",
+            "projectName": "java_basic_e1bb5388"
+        }
+    ]
+}
