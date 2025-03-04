@@ -4,9 +4,8 @@ public class OApp {
 
     }
     public void example01() {
-        String result = (30 >  20) ? "참" : "거짓" ;
+        String result = (30 >  20) ? "참" : "거짓";
         System.out.println(result);
-
     }
     public String example02(String a, String b) {
         return "" ;
