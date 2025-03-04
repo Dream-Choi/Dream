@@ -10,7 +10,7 @@ public class PostMain {
         // .viewCnt(44)
         // .build() ;
         // System.out.printf("제목: %S, 글쓴이: %S, 조회수: %d"
-        //     , p.getTitle(), p.getAuthor(), p.getVieweCnt());
+        //     , p.getTitle(), p.getAuthor(), p.getViewCnt());
 
         // PostView v = PostView.builder().build();
         // v.menu();
