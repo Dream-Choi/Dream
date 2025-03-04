@@ -7,8 +7,12 @@ public class LoopAppMain {
        // String result = app.sumStartToEnd(1, 100);
        String result=app.sumStartToEndWhile(1, 100);
        String result2=app.sumStartToEndDoWhile(1, 100);
-        System.out.println(result);
-        System.out.println(result2);
+       app.loopBreak(100);
+       app.randomSum();
+       app.popStr("jslim");
+       app.gugudanRow();
+       app.gugudanTables();
+       app.printIJ();
 
     }
 }

@@ -60,4 +60,60 @@ public class LoopApp {
         }while(i<=y);
         return x+"~"+y+"까지 합은"+s;
     }
+    //매개변수로 입력받은 값을 1부터 차례로 누적하여 합 구하다가 입력받은 값을 넘으면 중단하고 마지막으로 더해진 값과 그때까지 합을 출력하고 싶다.
+    public void loopBreak(int number) {
+        int sum = 0;
+        int i = 1;
+        while (true) {
+            sum += i;
+            if (sum > number) {
+                break;
+            }
+            i++;
+        }
+        System.out.println("마지막으로 더해진 값: " + i + ", 그때까지 합: " + sum);
+    }
+    public void gugudanRow(){
+        for (int dan=2; dan<=9;dan++){
+            gugudanCol(dan);
+        }
+    }
+    private void gugudanCol(int dan){
+        for (int col=1;col<=9;col++){
+            System.out.printf("%d * %d = %d\t", dan,col,(dan*col));
+        }
+        System.out.println();
+    }
+    public void gugudanTables(){
+        for(int dan=2;dan<=9;dan++){
+            for(int col = 1;col<=9;col++){
+                System.out.printf("%d * %d = %d\t",dan,col,(dan*col));
+            }
+            System.out.println();
+        }
+    }
+    public void randomSum(){
+        int sum=0;
+        int randInt = (int)(Math.random()*100+1);
+        for (int i=1; i<=randInt;i++){
+            sum+=i;
+            if(sum>randInt){
+                System.out.println(i+" "+sum);
+                break;
+            }
+        }
+    }
+    public void popStr(String text){
+        for(int i=0;i<text.length();i++){
+            System.out.println(text.charAt(i));
+        }
+    }
+    public void printIJ(){
+        for(int i=1;i<=5;i++){
+            for(int j =1; j<=5;j++){
+                System.out.print(i+j);
+            }
+            System.out.println();
+        }
+    }    
 }
