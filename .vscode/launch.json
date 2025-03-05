@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GuessGameAppMain",
+            "request": "launch",
+            "mainClass": "GuessGameAppMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "VendingMachineAppMain",
+            "request": "launch",
+            "mainClass": "VendingMachineAppMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
             "name": "LoopAppMain",
             "request": "launch",
             "mainClass": "LoopAppMain",
