@@ -18,7 +18,7 @@ public class GuessGameApp {
      --성공)xx번째 맟춤.
      --실패)기회소진
      */
-    public String gameFor(int answer){
+    public void gameFor(int answer){
         
         int x=0;
         for(int i=0;i<11;i++){
@@ -38,9 +38,8 @@ public class GuessGameApp {
                 break;
             }
         }
-        return null;
     }
-    public String gameWhile(int answer){
+    public void gameWhile(int answer){
         int x=0;
         while (x<11) {
             Scanner scan = new Scanner(System.in);
@@ -59,9 +58,8 @@ public class GuessGameApp {
                 break;
             }
         }
-        return null;
     }
-    public String gameDoWhile(int answer){
+    public void gameDoWhile(int answer){
         int x=0;
         do{
             Scanner scan = new Scanner(System.in);
@@ -80,6 +78,5 @@ public class GuessGameApp {
                 break;
         }
     }while(x<11);
-    return null;
 }
 }
