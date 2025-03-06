@@ -15,6 +15,6 @@ public class PostDTO {
     private String title;
     private String regDate;
     private String content;
-    private String author;
+    private String writer;
     private int viewCnt;  
 }
