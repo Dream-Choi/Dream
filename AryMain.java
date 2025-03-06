@@ -14,7 +14,7 @@ public class AryMain {
          -length
          -참조타입으로 취급
          */
-        /* 
+        /*
         int[] array=new int[10];
         System.out.println("배열의 길이:"+array.length);
         for(int i=0; i<array.length;i++){
@@ -40,9 +40,9 @@ public class AryMain {
         }
         */
         PostDAO obj = PostDAO.builder().build();
-        PostResponseDTO [] responseAry= obj.selectRow();
+        PostRequestDTO [] responseAry= obj.selectRow();
         System.out.println("게시글 출력");
-        for(PostResponseDTO entity:responseAry){
+        for(PostRequestDTO entity:responseAry){
             System.out.println(entity);
         }
         

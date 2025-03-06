@@ -17,6 +17,7 @@ import siat.study.post.domain.PostResponseDTO;
 @NoArgsConstructor
 @Builder
 public class PostView {
+    private PostDAO dao;
     private String url;
 
     public void menu() {
@@ -42,10 +43,9 @@ public class PostView {
     }
 }
     public void select(){
-        PostDAO obj = PostDAO.builder().build();
-        PostResponseDTO [] responseAry= obj.selectRow();
+        PostRequestDTO [] requestAry= dao.selectRow();
         System.out.println("게시글 출력");
-        for(PostResponseDTO entity:responseAry){
+        for(PostRequestDTO entity:requestAry){
             System.out.println(entity);
     }
 }
@@ -61,10 +61,11 @@ public class PostView {
         System.out.print("작성자");
         String writer=scan.nextLine();
         //입력테이터를 PostRequestDTO에 담고 DAO에 전달
-        PostRequestDTO dto= PostRequestDTO.builder()
+        PostRequestDTO request= PostRequestDTO.builder()
                                 .title(title)
                                 .content(content)
                                 .writer(writer)
                                 .build();
+        dao.insertRow(request);
     }
 }
