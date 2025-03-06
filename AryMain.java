@@ -50,12 +50,14 @@ public class AryMain {
         PostDAO dao = PostDAO.builder().build() ; 
         PostRequestDTO[] responseAry = dao.selectRow() ;
         System.out.println(">>> 게시글 출력"); 
-        for(PostRequestDTO entity : responseAry) {
-            System.out.println(entity); 
+        if (responseAry != null) {
+            for (PostRequestDTO entity : responseAry) {
+                if (entity != null) {
+                    System.out.println(entity); 
         }
-        
-        
-
+    }
+}   
+    
 
     }
 }
