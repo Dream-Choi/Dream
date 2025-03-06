@@ -1,4 +1,4 @@
-package view;
+package siat.study.view;
 
 import java.util.Scanner;
 

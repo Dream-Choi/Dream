@@ -1,4 +1,4 @@
-package service;
+package siat.study.service;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
