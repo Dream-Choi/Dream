@@ -1,5 +1,5 @@
 import service.PostService;
-import siat.PostDTO;
+import siat.study.PostDTO;
 import view.PostView;
 
 public class PostMain {
@@ -12,8 +12,8 @@ public class PostMain {
         // System.out.printf("제목: %S, 글쓴이: %S, 조회수: %d"
         //     , p.getTitle(), p.getAuthor(), p.getViewCnt());
 
-        // PostView v = PostView.builder().build();
-        // v.menu();
+        PostView v = PostView.builder().build();
+        v.menu();
         PostService s = PostService.builder().build();
         System.out.println(s.updatePost());
     }

@@ -12,10 +12,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder
 public class PostDTO {
-    //멤버(전역)변수
-    private  String title;
-    private  String regDate;
-    private  String writer;
-    private  String content;
-    private  String viewCnt;
+    private String title;
+    private String regDate;
+    private String content;
+    private String author;
+    private int viewCnt;  
 }
