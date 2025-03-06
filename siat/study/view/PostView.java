@@ -46,7 +46,9 @@ public class PostView {
         PostRequestDTO [] requestAry= dao.selectRow();
         System.out.println("게시글 출력");
         for(PostRequestDTO entity:requestAry){
+            if (entity!=null){
             System.out.println(entity);
+        }
     }
 }
     public void exit(){
