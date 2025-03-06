@@ -11,7 +11,7 @@ import siat.study.post.domain.PostResponseDTO;
 @RequiredArgsConstructor
 @AllArgsConstructor
 public class PostDAO {
-    private PostRequestDTO[] requestAry=new PostRequestDTO[10];
+    private PostRequestDTO[] requestAry;
     private int i;
     public void insertRow(PostRequestDTO request){
         requestAry[i++]=request;
