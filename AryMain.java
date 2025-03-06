@@ -40,10 +40,12 @@ public class AryMain {
         }
         */
         PostDAO obj = PostDAO.builder().build();
-        PostRequestDTO [] responseAry= obj.selectRow();
+        PostRequestDTO [] requestAry= obj.selectRow();
         System.out.println("게시글 출력");
-        for(PostRequestDTO entity:responseAry){
+        for(PostRequestDTO entity:requestAry){
+            if(entity!=null){
             System.out.println(entity);
+        }
         }
         
     }
