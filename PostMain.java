@@ -1,6 +1,6 @@
-import service.PostService;
 import siat.study.PostDTO;
-import view.PostView;
+import siat.study.service.PostService;
+import siat.study.view.PostView;
 
 public class PostMain {
     public static void main(String[] args) {
