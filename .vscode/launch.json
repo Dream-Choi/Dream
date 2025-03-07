@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Variable",
+            "request": "launch",
+            "mainClass": "Variable",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "OOPBuilderMain",
+            "request": "launch",
+            "mainClass": "OOPBuilderMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "OOPMain",
+            "request": "launch",
+            "mainClass": "OOPMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
             "name": "AryMain",
             "request": "launch",
             "mainClass": "AryMain",

@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import siat.study.post.dao.PostDAO;
 import siat.study.post.domain.PostRequestDTO;
-import siat.study.post.domain.PostResponseDTO;
 
 @Getter
 @Setter

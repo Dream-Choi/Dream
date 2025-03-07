@@ -5,6 +5,6 @@ public class Variable {
         char gender = 'M';
         String name = "jslim";
         boolean isMarriage = true;
-
+        System.out.printf("age = %d height= %f gender= %c name= %s marriage= %b\n",age , height,gender,name,isMarriage);
     }
 }

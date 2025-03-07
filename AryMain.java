@@ -2,7 +2,6 @@ import lombok.Builder;
 import siat.study.PostDTO;
 import siat.study.post.dao.PostDAO;
 import siat.study.post.domain.PostRequestDTO;
-import siat.study.post.domain.PostResponseDTO;
 @Builder
 public class AryMain {
 
