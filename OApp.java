@@ -3,6 +3,7 @@ public class OApp {
     public OApp() {
 
     }
+    @SuppressWarnings("unused")
     public void example01() {
         String result = (30 >  20) ? "참" : "거짓";
         System.out.println(result);
