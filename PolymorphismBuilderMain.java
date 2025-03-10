@@ -20,7 +20,7 @@ public class PolymorphismBuilderMain {
         }
         System.out.println("Quiz");
         System.out.println("사용자 검색");
-        PersonVO per =service.findPerson("박신형");
+        PersonVO per =service.findPerson("Park");
         if (per==null){
             System.out.println("못찾음");
         }else{
