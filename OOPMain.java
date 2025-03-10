@@ -18,7 +18,7 @@ public class OOPMain {
         System.out.println(stu.perInfo());
         System.out.println(stu.stuInfo());
         System.out.println(tea.perInfo());
-        System.out.println(tea.teacherInfo());
+        System.out.println(tea.teaInfo());
         System.out.println(mg.perInfo());
         System.out.println(mg.managerInfo());
         /////////////////
@@ -27,7 +27,7 @@ public class OOPMain {
         System.out.println(((StudentVO)stu01).stuInfo());
         PersonVO tea01=new TeacherVO("JSLIM", "광주", "자바");
         System.out.println(tea01.perInfo());
-        System.out.println(((TeacherVO)tea01).teacherInfo());
+        System.out.println(((TeacherVO)tea01).teaInfo());
         PersonVO mg01=new ManagerVO("이진규", "서울", "Siat");
         System.out.println(mg01.perInfo());
         System.out.println(((ManagerVO)mg01).managerInfo());
@@ -44,7 +44,7 @@ public class OOPMain {
                 System.out.println(((StudentVO)per).stuInfo());
             }
             if(per instanceof TeacherVO){
-                System.out.println(((TeacherVO)per).teacherInfo());
+                System.out.println(((TeacherVO)per).teaInfo());
             }
             if(per instanceof ManagerVO){
                 System.out.println(((ManagerVO)per).managerInfo());
