@@ -1,4 +1,3 @@
-import siat.study.oop.abstraction.AbstractApp;
 import siat.study.oop.abstraction.InterfaceApp;
 
 public class AbstractAppMain {

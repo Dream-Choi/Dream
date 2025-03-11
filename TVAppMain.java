@@ -1,5 +1,3 @@
-import siat.study.oop.abstraction.LgTV;
-import siat.study.oop.abstraction.SamsungTV;
 import siat.study.oop.abstraction.TV;
 import siat.study.oop.factory.TVFactory;
 
