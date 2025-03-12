@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExceptionAppMain",
+            "request": "launch",
+            "mainClass": "ExceptionAppMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
             "name": "MapMain",
             "request": "launch",
             "mainClass": "MapMain",
