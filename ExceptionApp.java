@@ -48,6 +48,6 @@ public class ExceptionApp {
         }
     } finally{
         System.out.println("3rd end");
+        }
     }
-}
 }
