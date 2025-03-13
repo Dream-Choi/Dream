@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LambdaMain",
+            "request": "launch",
+            "mainClass": "LambdaMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
+            "name": "StreamAppMain",
+            "request": "launch",
+            "mainClass": "StreamAppMain",
+            "projectName": "java_basic_e1bb5388"
+        },
+        {
+            "type": "java",
             "name": "ExceptionAppMain",
             "request": "launch",
             "mainClass": "ExceptionAppMain",
