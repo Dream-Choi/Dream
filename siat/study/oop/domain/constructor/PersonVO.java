@@ -32,5 +32,10 @@ public class PersonVO {
     public String perInfo(){
         return "이름:"+this.getName()+"\t 주소:"+this.getAddr();
     }
+
+    @Override
+    public String toString() {
+        return "PersonVO [이름:" + name + ", 주소:" + addr + "]";
+    }
     
 }
